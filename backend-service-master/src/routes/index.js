@@ -15,7 +15,7 @@ module.exports = (authMiddleware, authService, amqpService, db) => {
    *        description: OK
    */
   router.get('/', (req, res, next) => {
-    res.send('Hello world!')
+    res.send('Hello world! from complete backend service for j650n')
   })
 
   // Auth
